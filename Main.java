@@ -18,9 +18,19 @@ public class Main {
         cars.add("Ford");
         cars.add("Mazda");
 
-        System.out.println(cars);
+        for(String Car : cars){
+
+            System.out.println(Car);
+
+        }
 
         cars.addFirst("Mitsubishi");
+
+        for(String Car : cars){
+            System.out.println(Car);
+        }
+
+        cars.add(3, "KIA");
 
         for(String Car : cars){
             System.out.println(Car);
